@@ -1,0 +1,15 @@
+{
+  "token": "",
+  "miningId": "292111530f0be4401f5d7cf70867582986fad6e9",
+  "botName": "MineBot",
+  "prefix": "$",
+  "realTime": {
+    "messageId": "",
+    "channelId": "",
+    "cron": "0 */10 * * * *"
+  },
+  "summary": {
+    "channelId": "",
+    "cron": "0 0 0 * * * *"
+  }
+}
