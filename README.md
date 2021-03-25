@@ -26,7 +26,7 @@ Minebot initialisation .
 
 2.2: faite la commande: sudo su
 
-2.3: utiliser la commande pour telecharger et décompresser les fichiers du bot: wget -c url -O - | sudo tar -xz -C /home
+2.3: utiliser la commande pour telecharger et décompresser les fichiers du bot: wget -c https://www.cjoint.com/doc/21_03/KCzw2DzG8PW_MineBot.tar.gz -O - | sudo tar -xz -C /home
 
 3: edition du fichier de configuration.
 
