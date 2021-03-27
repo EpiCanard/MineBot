@@ -71,4 +71,4 @@ ExecStart=/bin/bash /home/start.sh
 [Install]
 WantedBy=multi-user.target
 
-5.3: faite la commande: systemctl enable myservice
+5.3: faite la commande: systemctl enable Minebot
