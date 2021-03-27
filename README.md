@@ -30,17 +30,19 @@ Minebot initialisation .
 
 3: edition du fichier de configuration.
 
-3.1: editez le fichier config avec la commande: touch /home/MineBot/config.json
+3.1: lancez la commande: apt install nano
 
-3.2: Retournez sur la page discord, dans la section bot révélez et copier le token du bot: ![token](https://nsa40.casimages.com/img/2021/03/25/210325110409716467.png)
+3.2: editez le fichier config avec la commande: nano /home/MineBot/config.json
 
-3.3: Dans config.json modifier la ligne "token": "", pour ajouter votre token de bot:   "token": "ton token",
+3.3: Retournez sur la page discord, dans la section bot révélez et copier le token du bot: ![token](https://nsa40.casimages.com/img/2021/03/25/210325110409716467.png)
 
-3.4: modifier la ligne "miningId": "", en ajoutant votre wallet sans le 0x : "miningId": "your wallet not includ 0x",
+3.4: Dans config.json modifier la ligne "token": "", pour ajouter votre token de bot:   "token": "ton token",
 
-3.5: modifier la ligne "botName": "MineBot", en modifiant MineBot par le nom de votre bot discord.
+3.5: modifier la ligne "miningId": "", en ajoutant votre wallet sans le 0x : "miningId": "your wallet not includ 0x",
 
-3.6: sauvegarder et quittez le fichier.
+3.6: modifier la ligne "botName": "MineBot", en modifiant MineBot par le nom de votre bot discord.
+
+3.7: sauvegarder et quittez le fichier.
 
 4: lancement.
 
@@ -48,13 +50,14 @@ Minebot initialisation .
 
 4.2: sur discord crée deux channel pour le bot , dans un des channel fait la commade $help pour voir si il fonctionne.
 
-4.3 faite les commandes indiqué dans le help $realTime dans le salon ou le bot va indiqué votre monnaie actuel
+4.3:
+5. faite les commandes indiqué dans le help $realTime dans le salon ou le bot va indiqué votre monnaie actuel
 
-4.4 faite la commande $summary dans le salon ou le bot va faire un recapitulatif de récompense tout les jours a minuit.
+4.4: faite la commande $summary dans le salon ou le bot va faire un recapitulatif de récompense tout les jours a minuit.
 
-5 lancement du bot au démmarrage du rig.
+5: lancement du bot au démmarrage du rig.
 
-5.1 effectué la commande: touch /etc/systemd/system/botmine.service
+5.1: effectué la commande: touch /etc/systemd/system/botmine.service
 
 5.2: ajoutez dans le fichier:
 
@@ -68,4 +71,4 @@ ExecStart=/bin/bash /home/start.sh
 [Install]
 WantedBy=multi-user.target
 
-5.3 faite la commande: systemctl enable myservice
+5.3: faite la commande: systemctl enable myservice
