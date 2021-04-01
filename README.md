@@ -61,14 +61,14 @@ Minebot initialisation .
 
 5.2: ajoutez dans le fichier:
 
-[Unit]
+[Unit]<br/>
 Description=Mine Bot
 
-[Service]
-Type=simple
+[Service]<br/>
+Type=simple<br/>
 ExecStart=/bin/bash /home/start.sh
 
-[Install]
+[Install]<br/>
 WantedBy=multi-user.target
 
 5.3: faite la commande: systemctl enable botmine
