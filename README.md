@@ -38,7 +38,7 @@ Minebot initialisation .
 
 3.4: Dans config.json modifier la ligne "token": "", pour ajouter votre token de bot:   "token": "ton token",
 
-3.5: modifier la ligne "miningId": "", en ajoutant votre wallet sans le 0x : "miningId": "your wallet not includ 0x",
+3.5: modifier la ligne "miningId": "", en ajoutant votre wallet sans le 0x et remplacer les majuscules par des minuscules: "miningId": "your wallet not includ 0x",
 
 3.6: modifier la ligne "botName": "MineBot", en modifiant MineBot par le nom de votre bot discord.
 
