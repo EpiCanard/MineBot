@@ -19,6 +19,8 @@ export function getJson(url: string) {
       } else {
         console.error(res.statusCode + " => " + res.statusMessage);
       }
+    }).on('error', (e) => {
+      console.error(e);
     });
   });
 }
