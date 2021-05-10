@@ -138,9 +138,8 @@ function configureCronIfNotExists(category: "realTime" | "summary", channelId: s
 function configureCron(cron: string, callback: (a: any, b: any) => void) {
   var job = new CronJob(cron, () => Promise
     .all([getJson(billingUrl), getJson(currencyUrl)])
-    .then.catch((error) => {
-  console.error(error);
-})(([billing, currency]) => callback(billing, currency))
+    .then(([billing, currency]) => callback(billing, currency))
+    .catch((error) => console.error(error))
   );
 
   job.start();
