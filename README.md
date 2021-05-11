@@ -46,14 +46,19 @@ Minebot initialisation .
 
 4: lancement.
 
-4.1: lancer le bot avec la commande: ./home/MineBot/start.sh
+4.1: Faite la commande: apt-get install npm
 
-4.2: sur discord crée deux channel pour le bot , dans un des channel fait la commade $help pour voir si il fonctionne.
+4.2: Faite la commande : cd /home/MineBot
 
-4.3:
-5. faite les commandes indiqué dans le help $realTime dans le salon ou le bot va indiqué votre monnaie actuel
+4.3: Faite la commande: npm install
 
-4.4: faite la commande $summary dans le salon ou le bot va faire un recapitulatif de récompense tout les jours a minuit.
+4.4: lancer le bot avec la commande: ./start.sh
+
+4.5: sur discord crée deux channel pour le bot , dans un des channel fait la commade $help pour voir si il fonctionne.
+
+4.6: faite les commandes indiqué dans le help $realTime dans le salon ou le bot va indiqué votre monnaie actuel
+
+4.7: faite la commande $summary dans le salon ou le bot va faire un recapitulatif de récompense tout les jours a minuit.
 
 5: lancement du bot au démmarrage du rig.
 
